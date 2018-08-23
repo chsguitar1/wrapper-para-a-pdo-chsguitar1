@@ -9,7 +9,7 @@
 		public $dbh;
 		public function __construct()
 		{
-			$config = new Config('mysql', 'localhost', 3306, 'turma3', 'root', 'pc3800chs');
+			$config = new Config('mysql', 'localhost', 3306, 'turma3', 'root', '');
 			$this->dbh = new Base($config);
         }
         
